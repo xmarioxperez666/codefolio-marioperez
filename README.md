@@ -1,6 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
 # Mario Pérez | UX Engineer & UI Developer Portfolio
 
@@ -8,7 +5,7 @@ An interactive portfolio built with modern web technologies, featuring an IDE-li
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [marioperez.github.io/codefolio-marioperez](https://marioperez.github.io/codefolio-marioperez)
+Visit the live portfolio: [xmarioxperez666.github.io/codefolio-marioperez](https://xmarioxperez666.github.io/codefolio-marioperez)
 
 ## 🛠️ Tech Stack
 
