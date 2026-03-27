@@ -5,7 +5,7 @@ An interactive portfolio built with modern web technologies, featuring an IDE-li
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [marioperez.github.io/codefolio-marioperez](https://marioperez.github.io/codefolio-marioperez)
+Visit the live portfolio: [xmarioxperez666.github.io/codefolio-marioperez](https://xmarioxperez666.github.io/codefolio-marioperez)
 
 ## 🛠️ Tech Stack
 
