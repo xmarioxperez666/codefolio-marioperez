@@ -259,10 +259,15 @@ const ScrollProgress = () => {
   );
 };
 
+// Helper function to detect if device is mobile
+const isMobileDevice = () => {
+  return window.innerWidth < 768;
+};
+
 export default function App() {
   const [activeFile, setActiveFile] = useState<FileType>('about_me');
   const [openFiles, setOpenFiles] = useState<FileType[]>(['about_me', 'ai_synergy', 'checkpoint', 'gtm', 'qa']);
-  const [isExplorerOpen, setIsExplorerOpen] = useState(true);
+  const [isExplorerOpen, setIsExplorerOpen] = useState(!isMobileDevice());
   const [isImpactFolderOpen, setIsImpactFolderOpen] = useState(true);
   const [isConsoleOpen, setIsConsoleOpen] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'go-crazy'>('dark');
@@ -297,6 +302,16 @@ export default function App() {
     }
     prevIsConsoleOpen.current = isConsoleOpen;
   }, [isConsoleOpen]);
+
+  // Handle responsive sidebar visibility based on screen size
+  useEffect(() => {
+    const handleResize = () => {
+      setIsExplorerOpen(!isMobileDevice());
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const funFacts = [
     "🐕 Proud dog-dad of three pitbull-mix pups.",
