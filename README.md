@@ -2,19 +2,61 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Mario Pérez | UX Engineer & UI Developer Portfolio
 
-This contains everything you need to run your app locally.
+An interactive portfolio built with modern web technologies, featuring an IDE-like experience that showcases expertise in UX Engineering, UI Development, Web Design, and Design Systems.
 
-View your app in AI Studio: https://ai.studio/apps/cd43e054-946c-4c52-a41f-262ec3d3fcbd
+## 🚀 Live Demo
 
-## Run Locally
+Visit the live portfolio: [marioperez.github.io/codefolio-marioperez](https://marioperez.github.io/codefolio-marioperez)
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Frontend Framework:** React 19
+- **Language:** TypeScript
+- **Build Tool:** Vite 6
+- **Styling:** Tailwind CSS 4
+- **UI Components:** Lucide React
+- **Animation:** Motion
+- **AI Integration:** Google Generative AI (@google/genai)
+- **Development:** Node.js
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Installation & Setup
+
+### Prerequisites
+- Node.js (v18 or higher)
+
+### Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/marioperez/codefolio-marioperez.git
+   cd codefolio-marioperez
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env.local`
+   - Add your Gemini API key: `GEMINI_API_KEY=your_key_here`
+
+4. **Run development server:**
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:3000`
+
+## 🏗️ Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run TypeScript type checking
+- `npm run clean` - Remove build artifacts
+
+## 📄 License
+
+Personal portfolio project. All rights reserved.
